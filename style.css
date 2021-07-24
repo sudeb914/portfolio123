@@ -115,6 +115,9 @@ hr{
     transition: 0.2s;
     
 }
+.bg-services{
+    background: #4E56DE;
+}
 .card:hover{
     box-shadow: 4px 4px 13px -4px rgba(0,0,0,0.6);
     -webkit-box-shadow: 4px 4px 13px -4px rgba(0,0,0,0.6);
