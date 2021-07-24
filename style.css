@@ -1,0 +1,148 @@
+/* =====================common css====================== */
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url("img/body-bg.png")
+}
+
+
+
+/* logo */
+.logo{
+    color: #9186F3;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.logo:hover{
+    color: #9186F3;
+}
+.navbar-nav{
+    margin-top: 10px;
+}
+.nav-link{
+    color: black;
+    margin-right: 35px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 8px;
+}
+.nav-link:hover{
+    color: #9186F3;
+}
+.activetd{
+    color: #9186F3;
+}
+
+
+
+
+/* hero section */
+.part-one{
+    background: url("img/banner/home-banner.png");
+    margin-top: 40px;
+}
+.padding-image{
+    padding-top: 120px;
+}
+.hero-sectoin-h2{
+    font-weight: 400;
+    font-size: 60px;
+    padding-left: 10px;
+    display: inline-block;
+    
+}
+hr{
+    width: 200px;
+    margin-left: 20px;
+    padding: 1.5px 0;
+    color: #000;
+    background-color: black;
+}
+
+.hero-sectoin-h1{
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 20px;
+}
+.mute{
+    font-weight: 700;
+}
+.btn-own{
+    background: #4E56DE;
+    padding: 8px 25px;
+    border: 2px solid #4E56DE;
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: .3s;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+.btn-own:hover{
+    background: transparent;
+    color: #4E56DE;
+}
+
+
+/* ==========================about me=============== */
+.about-me-heading{
+    font-weight: 900;
+    margin-top: 50px;
+    letter-spacing: 10px;
+    color: #13131a;
+    
+    
+}
+
+/* pages */
+.padding-iamge{
+    padding: 40px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.479);
+}
+
+/* card */
+.card-image{
+    width: 80px;
+    margin-bottom: 10px;
+}
+.card{
+    height: 350px;
+    /* width: 300px; */
+    padding: 50px;
+    margin-bottom: 30px;
+    border: none;
+    transition: 0.2s;
+    
+}
+.card:hover{
+    box-shadow: 4px 4px 13px -4px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 4px 4px 13px -4px rgba(0,0,0,0.6);
+    -moz-box-shadow: 4px 4px 13px -4px rgba(0,0,0,0.6);
+    background-color: #4a12e67e;
+    color: #fff;
+    cursor: pointer;
+}
+.card-text{
+    text-align: justify;
+}
+
+
+/* form */
+.sub-mian{
+    height: 50vh;
+    background: #7651EA;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.sub-width{
+    width: auto;
+    height: 36px;
+    padding-left: 10px;
+    margin-right: 10px;
+}
